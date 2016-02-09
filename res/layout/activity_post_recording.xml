@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.advait.s.emokylo.PostRecordingActivity"
+    android:background="@color/darkblue" >
+
+    <RelativeLayout
+        android:id="@+id/heroholder"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true" >
+        <ImageView
+            android:id="@+id/kylohero"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/kylohero"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/playpausebut"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_play_arrow_white_48dp" />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:progressDrawable="@drawable/progressdrawable"
+            android:thumb="@drawable/thumb" />
+	</RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/heroholder"
+        android:background="@color/accent"/>
+
+        <Switch
+            android:id="@+id/epicmusic"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/heroholder"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:checked="true"
+            android:text="Epic background music" />
+        
+        <EditText
+            android:id="@+id/filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/epicmusic"
+            android:hint="Write something"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal" />
+        
+        <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        card_view:cardBackgroundColor="@color/accent"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="3dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/filename"
+        android:layout_marginLeft="20dp" >
+
+    <TextView android:id="@+id/delete_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8.5dp"
+            android:paddingBottom="8.5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="#FFF"
+            android:text="DELETE" />
+
+</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/others_share"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        card_view:cardBackgroundColor="@color/primary"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="3dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/delete"
+        android:layout_below="@id/filename"
+        android:layout_marginLeft="20dp" >
+
+    <TextView android:id="@+id/othersshare_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8.5dp"
+            android:paddingBottom="8.5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="#FFF"
+            android:text="SHARE" />
+
+</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        card_view:cardBackgroundColor="#9E9E9E"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="3dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/others_share"
+        android:layout_below="@id/filename"
+        android:layout_marginLeft="20dp" >
+
+    <TextView android:id="@+id/done_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8.5dp"
+            android:paddingBottom="8.5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="#FFF"
+            android:text="DONE" />
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

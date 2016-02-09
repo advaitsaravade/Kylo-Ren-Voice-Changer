@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emo Kylo Ren</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>VOICE CHANGER</item>
+        <item>HISTORY</item>
+        <item>SAY THE TWEET</item>
+        <item>SOCIAL</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_mic_white_48dp</item>
+        <item>@drawable/ic_history_white_48dp</item>
+        <item>@drawable/twitter_white</item>
+        <item>@drawable/ic_whatshot_white_48dp</item>
+    </array>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="kylorenintro">Try your best to speak in a rough, coarse, yet whisper-like voice. Like Bruce Wayne\'s voice in The Dark Knight.</string>
+    <string name="title_activity_post_recording">EDIT AND SHARE</string>
+
+</resources>

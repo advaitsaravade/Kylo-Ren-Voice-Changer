@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:gravity="center" >
+        <RelativeLayout
+            android:id="@+id/holderyo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true" >
+            <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:animateLayoutChanges="true"
+        card_view:cardPreventCornerOverlap="false">
+        <LinearLayout
+            android:id="@+id/holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="#FFF"
+            android:orientation="vertical" >
+            <LinearLayout
+            android:id="@+id/detailsholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical" >
+            <android.support.v7.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false">
+            <ImageView
+                android:id="@+id/profilepic"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:id="@+id/nameholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp" >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#6d6d6d" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/twitter" />
+        </LinearLayout>
+        <TextView
+                android:id="@+id/tweet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000" />
+        <TextView
+                android:id="@+id/datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#6d6d6d" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </RelativeLayout>
+</RelativeLayout>

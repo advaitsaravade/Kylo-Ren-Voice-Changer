@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:animateLayoutChanges="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.7"
+        android:background="@android:color/transparent" >
+        
+        <ProgressBar
+            android:id="@+id/spinner"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/spinnertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:text="Loading Tweets..."
+            android:padding="10dp"
+            android:layout_centerHorizontal="true" />
+        <!-- <com.advait.s.emokylo.SnappingRecyclerView
+             android:id="@+id/cardList"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+            
+        </com.advait.s.emokylo.SnappingRecyclerView>-->
+         <android.support.v4.view.ViewPager
+        android:id="@+id/myviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@color/darkblue" >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/accent" />
+
+        <Button
+            android:id="@+id/saytweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Say this Tweet"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/herobutton" />
+
+    </RelativeLayout>
+</LinearLayout>
+    
