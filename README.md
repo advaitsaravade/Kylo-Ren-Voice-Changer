@@ -1,8 +1,6 @@
-# Kylo-Ren-Voice-Changer
+# Kylo Ren Voice Changer for Android
 Ever wanted to sound exactly like the dark lord, Kylo Ren? Well, that's.. umm.. weird. But if you've ever wanted to know how to add audio
-effects to your Android audio effects, then here you go. All you need to do now is see the source code. Experiement a little. This app
-isn't on the Google Play Store because, well, it impersonates Kylo Ren's character (owned by Disney, ugh). But you can obviously download
-it and play around. It's a lot of fun at parties, but don't trust me, try it out for yourself.
+effects to your Android audio effects, then here you go. All you need to do now is see the source code. Most of the algorithms and useful code is in the VoiceChangerFragment.java and PostRecordingActivity.java files. Experiement a little. This app isn't on the Google Play Store because, well, it impersonates Kylo Ren's character (owned by Disney, ugh). But you can obviously download it and play around a little. The APK file or the app file is called 'Emo Kylo Ren.apk' and to install the app, all you need to do is download this file and open it on your Android powered device. It's a lot of fun at parties, but don't trust me, try it out for yourself.
 
 # Description
 
