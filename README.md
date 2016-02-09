@@ -22,3 +22,4 @@ Features:
 And of course, since this is a fun app, that's meant to poke fun at Kylo Ren's idiosyncracies, and non-commercial, it is completely ad-free.
 
 I hope you have as much fun using this app, as I had coding it. Tweet to me @advait1911.
+I would like to thank Michael Flarup of pixelresort.com for creating the app icon. It's truly breathtaking.
