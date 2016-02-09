@@ -2,6 +2,9 @@
 Ever wanted to sound exactly like the dark lord, Kylo Ren? Well, that's.. umm.. weird. But if you've ever wanted to know how to add audio
 effects to your Android audio effects, then here you go. All you need to do now is see the source code. Most of the algorithms and useful code is in the VoiceChangerFragment.java and PostRecordingActivity.java files. Experiement a little. This app isn't on the Google Play Store because, well, it impersonates Kylo Ren's character (owned by Disney, ugh). But you can obviously download it and play around a little. The APK file or the app file is called 'Emo Kylo Ren.apk' and to install the app, all you need to do is download this file and open it on your Android powered device. It's a lot of fun at parties, but don't trust me, try it out for yourself.
 
+#Screenshots!
+![alt tag](https://raw.github.com/advaitsaravade/Kylo-Ren-Voice-Changer/branch/screenshots/Record Fragment.png)
+
 # Description
 
 This is not your ordinary voice changer. The force is strong with this one. The dark side has seduced it. It wears black robes, wields a fiery light saber, and best of all, is like nothing you've ever heard before. Kylo Ren, the dark lord under Supreme Leader Snoke, and leader of the First Order, is here.
